@@ -55,6 +55,7 @@
     "pegjs": "^0.10.0",
     "prop-types": "^15.7.2",
     "seedrandom": "^3.0.5",
+    "whatwg-url": "^7.1.0",
     "yoga-layout-prebuilt": "^1.9.5"
   },
   "peerDependencies": {
@@ -84,13 +85,14 @@
     "@skpm/test-runner": "^0.4.1",
     "@types/airbnb-prop-types": "^2.13.1",
     "@types/invariant": "^2.2.31",
-    "@types/node-fetch": "^2.5.4",
     "@types/jest": "^25.2.1",
     "@types/node": "^13.13.2",
+    "@types/node-fetch": "^2.5.4",
     "@types/pegjs": "^0.10.1",
     "@types/react": "^16.9.34",
     "@types/react-test-renderer": "^16.9.2",
     "@types/seedrandom": "^2.4.28",
+    "@types/whatwg-url": "^8.2.0",
     "gitbook-cli": "^2.3.0",
     "gitbook-plugin-anchorjs": "^2.1.0",
     "gitbook-plugin-codeblock-disable-glossary": "0.0.1",

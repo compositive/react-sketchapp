@@ -6,8 +6,10 @@ import fetch from 'node-fetch';
 import { readFile as nodeReadFile } from 'fs';
 
 const NodeMacOSBridge: PlatformBridge = {
+  // @ts-ignore
   createStringMeasurer,
   findFontName,
+  URL,
   fetch: fetch as any, // call signatures are not perfectly identical, but we'll make do
   async readFile(path: string): Promise<Buffer> {
     return new Promise((resolve, reject) => {

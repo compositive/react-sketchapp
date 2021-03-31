@@ -40,7 +40,7 @@ export const getImageDataFromURL = (bridge: PlatformBridge) => async (
   }
 
   try {
-    const parsedUrl = new URL(url);
+    const parsedUrl = new bridge.URL(url);
 
     const buffer = await (parsedUrl.protocol === 'file:'
       ? bridge.readFile(parsedUrl.pathname)
