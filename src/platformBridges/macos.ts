@@ -6,7 +6,6 @@ import fetch from 'node-fetch';
 import { readFile as nodeReadFile } from 'fs';
 
 const NodeMacOSBridge: PlatformBridge = {
-  // @ts-ignore
   createStringMeasurer,
   findFontName,
   URL,
