@@ -123,6 +123,7 @@ export type ResizeConstraints = {
 
 export type PlatformBridge = {
   createStringMeasurer(textNodes: TextNode[], maxWidth: number): Size;
+  URL: typeof URL;
   findFontName(style: TextStyle): string;
   fetch(input: RequestInfo, init?: RequestInit): Promise<Response>;
   readFile(path: string): Promise<Buffer>;
